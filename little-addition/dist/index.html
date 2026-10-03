@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="1 到 5 的加法练习，每题中文朗读两遍。"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="加法"><title>加法 · 1–5</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="stylesheet" href="./style.css"><script src="./app.js" defer></script>
+</head>
+<body><main class="app-shell" aria-label="加法练习">
+<div class="learning-area"><section class="table-panel" aria-label="加法表"><div id="addition-table" class="addition-table" aria-label="1 到 5 加法表"></div></section><section class="equation-panel" aria-label="当前算式"><div id="equation" class="equation" aria-live="polite"><span class="number-a">1</span><span class="operator">+</span><span class="number-b">1</span><span class="operator">=</span><span class="answer">2</span></div><span id="reading-status" class="sr-only">准备好了吗？</span><span id="spoken-equation" class="sr-only">一 加 一 等于 二</span><span id="repeat-one" hidden></span><span id="repeat-two" hidden></span></section></div>
+<section class="playback" aria-label="播放控制"><button id="previous" class="icon-button" aria-label="上一题" title="上一题">←</button><button id="play" class="play-button"><span id="play-icon" aria-hidden="true">▶</span> <span id="play-label">开始</span></button><button id="next" class="icon-button" aria-label="下一题" title="下一题">→</button><button id="replay" class="icon-button" aria-label="再听一次" title="再听一次">↻</button></section>
+<div class="bottom-row"><span id="progress-text">1 / 25</span><details><summary>设置</summary><div class="settings"><label for="language">语言 / Language</label><select id="language"><option value="zh">中文</option><option value="en">English</option></select><label for="voice">声音 / Voice</label><select id="voice"><option value="auto">自动选择</option></select><label for="speed">朗读速度</label><select id="speed"><option value="slow">慢速</option><option value="normal" selected>正常</option><option value="fast">快速</option></select><button id="install" hidden>安装到桌面</button></div></details></div><p id="audio-message" class="audio-message" role="status" hidden></p><span id="connection-status" hidden></span><span id="progress-fill" hidden></span>
+</main></body></html>
+
+
