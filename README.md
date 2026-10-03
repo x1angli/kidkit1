@@ -22,3 +22,12 @@ node check-behavior.cjs
 ## Install or host
 
 The `little-addition/dist` folder contains the complete static app. The `little-addition-pwa.zip` archive contains the same deployable files. Serve the app over HTTPS to enable installation and offline caching.
+
+## Live app
+
+https://x1angli.github.io/kidkit1/
+
+On Android, open in Chrome and choose Install app. On iPhone or iPad, open in Safari, choose Share, then Add to Home Screen. After the first online visit, the interface works offline. Speech availability offline depends on the installed device voices.
+
+Pushes to master automatically validate and deploy little-addition/dist through GitHub Pages.
+

@@ -1,1 +1,27 @@
-{"id":"./","name":"加法小花园","short_name":"加法小花园","description":"1 到 5 的加法，中文朗读两遍，一起快乐学习。","lang":"zh-CN","start_url":"./","scope":"./","display":"standalone","background_color":"#f8f7f0","theme_color":"#52745c","icons":[{"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "id": "./",
+  "name": "加法小花园",
+  "short_name": "加法小花园",
+  "description": "1 到 5 的加法，中文朗读两遍，一起快乐学习。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "background_color": "#f4f7ff",
+  "theme_color": "#f4f7ff",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "any"
+}
